@@ -6,4 +6,4 @@ build:
   info:
     - echo "Env:" ; env
     - java -version
-  run:  echo "Running build"
+  run:  mvn install
